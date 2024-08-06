@@ -11,6 +11,7 @@ const App = () => {
 
 
   useEffect(()=>{
+    
     authService.getCurrentUser()
       .then((userData)=>{
         if(userData){
